@@ -15,3 +15,7 @@ This simple chat application will demonstrate how the bidirectional mechanism wo
 - you will see `connected to grpc chat server at //address`
 - you can directly type the message into the terminal and then click enter to send the message
 
+# Demo
+![img](https://github.com/jeremypanjaitan/go-grpc-chat/blob/master/run-demo.gif)
+
+
