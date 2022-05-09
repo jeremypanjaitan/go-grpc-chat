@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+option go_package = "grpc-chat/grpcchat";
+
+package grpcchat;
+
+service Chat {
+    rpc ReceiveAndSend(stream Message) returns (stream Message){}
+}
+
+message Message {
+    string message = 1;
+}
+
