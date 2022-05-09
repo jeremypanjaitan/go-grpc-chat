@@ -1,5 +1,5 @@
 # About
-gRPC support bidirectinoal streaming RPCs where both sides(server and client) send a seqeuence of messages using a read-write stream. Each stream operates independently, they don't have to wait until the response received or they don't have to wait until the response sent. You can visit to this link to read more about gRPC https://grpc.io/docs/what-is-grpc/core-concepts/
+gRPC support bidirectional streaming RPCs where both sides(server and client) send a seqeuence of messages using a read-write stream. Each stream operates independently, they don't have to wait until the response received or they don't have to wait until the response sent. You can visit this link to read more about gRPC https://grpc.io/docs/what-is-grpc/core-concepts/
 
 This simple chat application will demonstrate how the bidirectional mechanism works in gRPC. There will be server and client will communicate with each other. Server will send a message and client will receive or the opposite.
 
